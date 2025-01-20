@@ -2,55 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ✅ โหลด Kanit จาก Google Fonts (สำหรับ fallback) */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+/* ✅ โหลด Kanit จาก Google Fonts เป็น fallback */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500;600;700;900&display=swap');
 
 /* ✅ ใช้ `@font-face` เพื่อกำหนดไฟล์ฟอนต์แบบ Local */
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-Thin.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-Light.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-Regular.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-Medium.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-SemiBold.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-Bold.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-Black.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
 }
@@ -58,42 +58,42 @@
 /* ✅ ใช้ Italic Fonts */
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-LightItalic.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-LightItalic.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-RegularItalic.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-RegularItalic.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-MediumItalic.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-MediumItalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-SemiBoldItalic.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-SemiBoldItalic.ttf') format('truetype');
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-BoldItalic.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-BoldItalic.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Kanit';
-  src: url('/fonts/Kanit-BlackItalic.ttf') format('truetype');
+  src: url('/fonts/Kanit/Kanit-BlackItalic.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
 }
@@ -101,5 +101,4 @@
 /* ✅ กำหนดให้ body ใช้ Kanit เป็น Default */
 body {
   font-family: 'Kanit', sans-serif;
-  @apply font-kanit;
 }
