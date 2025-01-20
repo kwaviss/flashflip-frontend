@@ -100,5 +100,5 @@
 
 /* ✅ กำหนดให้ body ใช้ Kanit เป็น Default */
 body {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Kanit', sans-serif !important;; 
 }
